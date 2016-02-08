@@ -35,6 +35,13 @@ if __name__ == "__main__":
     
     
     #Select random text from different languages to test."
+    
+    test_string = raw_input("Enter your sample text:")
+    
+    predict_string = text_clf.predict(test_string)
+    
+    print "This test text is written in:", Language_list[predict_string]
+    
 
     random_test = ['самая большая страна в мире','campanili e cupole contro il verde intenso delle', 
                     'vérifiez auparavant que le sujet', 'this is a test', 'solo una prueba', 

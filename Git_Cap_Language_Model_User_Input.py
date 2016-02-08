@@ -38,7 +38,7 @@ if __name__ == "__main__":
     
     test_string = raw_input("Enter your sample text:")
     
-    test_string= [test_string.decode('utf8')]
+    test_string = [test_string]
     
     predict_string = text_clf.predict(test_string)
     

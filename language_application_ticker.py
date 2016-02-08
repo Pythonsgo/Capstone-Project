@@ -33,7 +33,7 @@ def index_ticker():
   
         text_clf = pickle.load(open('experiment_file','r'))
     
-        text_string = [STOCK.decode('utf8')]
+        text_string = [STOCK]
     
         predict_string = text_clf.predict(text_string)
     
