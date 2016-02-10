@@ -20,7 +20,7 @@ Language_list = ['Bengali', 'Dutch', 'English', 'French', 'German', 'Greek',
 
 app_ticker = Flask(__name__)
 
-#Variable to hold the stock ticker input from user.
+#Variable to hold the text input from user for language Identification.
 STOCK=''       
 
 #Module which obtains user input.
